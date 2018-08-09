@@ -1,0 +1,46 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"miniprogramRoot": "./dist/",
+	"compileType": "miniprogram",
+	"appid": "wx45f738038c102478",
+	"qcloudRoot": "./server/",
+	"projectname": "mpvue-todo",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "booksList",
+					"pathName": "pages/books/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "booksdetail",
+					"pathName": "pages/detail/main",
+					"query": ""
+				}
+			]
+		}
+	}
+}
